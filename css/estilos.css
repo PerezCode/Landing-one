@@ -1,0 +1,147 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  background-color: #F4F4F7;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header div  h1{
+  margin: 0;
+}
+
+.header div p{
+  margin: 0;
+}
+
+.header nav{
+  /* border: 1px solid blue; */
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.header nav ul{
+  display: flex;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li{
+  width: 20%;
+  /* border: 1px solid green; */
+  display: flex;
+  background-color: #D6D6D6;
+  color: #C74451;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.home{
+  background-color: #C74451 !important;
+  color: white !important; 
+}
+
+.hero{
+  border: 1px solid red;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px; 
+  border-radius: 10px;
+}
+
+.hero div h3{
+  color: #666666;
+}
+
+h2, h3{
+  color: #C74451;
+  margin: 0;
+}
+
+.hero figure{
+  margin: 0;
+  margin: 10px 20px;
+}
+
+.hero figure img{
+  width: 300px;
+}
+
+.publicaciones{
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.publicaciones article{
+  display: flex;
+  /* border: 1px solid blue; */
+  padding: 15px;
+}
+
+.publicaciones-detalles{
+  width: 30%;
+  font-size: 14px;
+}
+
+.publicaciones-detalles p strong{
+  color: #C74451;
+}
+
+.comentarios{
+  font-style: italic;
+}
+
+.publicaciones-preview strong{
+  color: #C74451;
+}
+
+.banner{
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.banner-container-image{
+  width: 300px;
+  height: 100px;
+  /* border: 1px solid blue; */
+}
+.banner-container-image img{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.footer{
+  background-color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer div{
+  border: 1px solid blue;
+  height: min-content;
+}
+
+.footer div p{
+  margin: 0;
+  margin-right: 10px;
+  color: white;
+}
+
+.rd-image{
+  width: 30px;
+  margin: 0px 5px;
+}
