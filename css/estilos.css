@@ -1,12 +1,19 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
+.header-container{
+  width: 70%;
+  background-color: #F4F4F7;
+  margin-top: 20px;
+}
 .header{
   background-color: #F4F4F7;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .header div  h1{
@@ -49,12 +56,23 @@ body{
 }
 
 .hero{
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  background-color: #F4F4F7;
   display: flex;
-  background-color: white;
-  padding: 20px;
-  margin-top: 30px; 
+  padding: 30px 0px;
+  justify-content: center;
+}
+
+.hero-container{
+  display: flex;
+  width: 70%;
+  /* border: 1px solid red; */
   border-radius: 10px;
+  background-color: white;
+}
+
+.hero-container div{
+  padding: 15px;
 }
 
 .hero div h3{
@@ -76,9 +94,22 @@ h2, h3{
 }
 
 .publicaciones{
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  padding-bottom: 30px; 
+  display: flex;
+  justify-content: center;
+  background-color: #F4F4F7;
+}
+
+.publicaciones-container{
+  width: 70%;
+  /* border: 1px solid red; */
   border-radius: 10px;
-  margin-top: 30px;
+  background-color: white;
+}
+
+.publicaciones-container hr{
+  margin: 0px 15px;
 }
 
 .publicaciones article{
@@ -105,10 +136,19 @@ h2, h3{
 }
 
 .banner{
-  border: 1px solid red;
-  border-radius: 10px;
-  margin-top: 30px;
+  /* border: 1px solid red; */
   display: flex;
+  justify-content: center;
+  background-color: #F4F4F7;
+  padding-bottom: 30px; 
+}
+
+.banner-container{
+  width: 70%;
+  display: flex;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-color: white;
 }
 
 .banner-container-image{
@@ -125,19 +165,24 @@ h2, h3{
 .footer{
   background-color: #666666;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
+  justify-content: center;
+  height: 40px;
 }
 
-.footer div{
-  border: 1px solid blue;
+.footer-container{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container div{
+  /* border: 1px solid blue; */
   height: min-content;
 }
 
 .footer div p{
   margin: 0;
-  margin-right: 10px;
   color: white;
 }
 
